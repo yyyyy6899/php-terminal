@@ -1,0 +1,85 @@
+/* General body */
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: monospace;
+    padding: 20px;
+}
+
+/* Headings */
+h1 { color: #0ff; }
+
+/* Login box */
+.login-box {
+    border: 2px dashed #0f0;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+/* Inputs */
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #000;
+    border: 1px solid #0f0;
+    color: #0f0;
+    font-family: monospace;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #0f0;
+    color: #0f0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button.logout {
+    width: auto;
+    background-color: #000;
+    color: #f00;
+    border: 1px solid #f00;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+button.logout:hover { color: #0ff; border-color: #0ff; }
+
+/* Error text */
+p.error { color: #f00; }
+
+/* Terminal boxes */
+.terminal-box {
+    border: 2px dashed #0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Command links */
+.command-box {
+    border: 1px dotted #ff0;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ff0;
+    text-decoration: none;
+}
+
+.command-box:hover {
+    color: #f0f;
+    border-color: #f0f;
+}
+
+/* Command output */
+pre {
+    background-color: #000;
+    color: #0f0;
+    border: 1px dashed #0f0;
+    padding: 10px;
+}
